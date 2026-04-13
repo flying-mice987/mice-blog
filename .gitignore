@@ -1,0 +1,4 @@
+# vitepress
+config/.vitepress/dist
+config/.vitepress/cache
+node_modules
