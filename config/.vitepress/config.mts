@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "../md",
   base: "/mice-blog/",
-  
+
   title: "mice blog",
   description: "My personal blog!",
   themeConfig: {
@@ -17,7 +17,9 @@ export default defineConfig({
       {
         text: 'AI4OS训练营',
         items: [
-          { text: '00-rCore', link: '/rCore-AI4OS/00-rCore.html' },
+          { text: '00-rCore', link: '/rCore-AI4OS/00-rCore' },
+          { text: '01-Hi, RISC-V', link: '/rCore-AI4OS/01-Hi_RISC-V' },
+          { text: '02-BatchOS: trapping', link: '/rCore-AI4OS/02-BatchOS_trapping' },
         ]
       }
     ],
