@@ -21,7 +21,13 @@ export default defineConfig({
           { text: '01-Hi, RISC-V', link: '/rCore-AI4OS/01-Hi_RISC-V' },
           { text: '02-BatchOS: trapping', link: '/rCore-AI4OS/02-BatchOS_trapping' },
         ]
-      }
+      },
+      {
+        text: 'Misc 杂项',
+        items: [
+          { text: '逆向DSP考试exe小记', link: '/Misc/reverse-CG.md' },
+        ]
+      },
     ],
 
     socialLinks: [
